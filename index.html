@@ -124,7 +124,7 @@
         fields.map(
         (v,i)=>
         `<tr>
-            <td>"# District Cases: "${handleObject(layer.feature.properties[v])}</td>
+            <td>"District/#Cases: "${handleObject(layer.feature.properties[v])}</td>
         </tr>`).join(''))
     +'</table>';
     div.innerHTML=table;
